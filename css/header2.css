@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+* 
+
+p {
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.75em;
+    color: #999;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    color: #f4f4f4;
+}
+
+
+.navbarr {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.containerr {
+    padding: 1.2rem 2%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #121212;
+}
+
+.navbarr .logo-wrapperr {
+    height: 29px;
+    overflow: hidden;
+    -webkit-mask-image: linear-gradient(-75deg, rgba(0, 0, 0, 0.5) 30%, #000000 50%, rgba(0, 0, 0, 0.5) 70%);
+    -webkit-mask-size: 180%;
+    animation: shine 2s linear infinite;
+
+}
+
+.logo-wrapperr a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.logo-wrapperr a strong {
+    font-family: 'Jost', sans-serif;
+    font-size: 25px;
+    color: #fff;
+    letter-spacing: -5px;
+
+}
+
+
+
+.navbarr .navbar-links {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.navbarr .navbar-links a {
+    font-family: Jost, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgb(200, 200, 200);
+    text-decoration: none;
+}
+.navbar-links li{
+    list-style: none;
+}
+
+.navbarr .navbar-links a:hover {
+    color: rgb(255, 255, 255);
+
+}
+@keyframes shine
+{
+    0%
+    {
+        -webkit-mask-position: 150%;
+    }
+    100%
+    {
+        -webkit-mask-position: -50%;
+    }
+}
