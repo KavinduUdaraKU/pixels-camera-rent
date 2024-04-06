@@ -135,3 +135,14 @@
     padding: 0.75rem 1rem;
     border: none;
 }
+
+.contact .container .box .emaill {
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+
+.contact .container .box .emaill:hover {
+    color: blue;
+    transform: scale(110%);
+}
