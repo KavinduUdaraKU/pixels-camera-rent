@@ -1,6 +1,7 @@
 body{
     margin: 0;
-    font-family: Poppins;
+	font-family: "Cairo", sans-serif;
+    background-color: #000000;
 }
 html {
     scroll-behavior: smooth;
@@ -125,6 +126,7 @@ header{
 .icon-cart{
     position: relative;
     transition: 0.5s;
+    color: #fff;
 }
 
 .icon-cart span{
@@ -142,20 +144,25 @@ header{
 }
 .title{
     font-size: xx-large;
+    color: #fff;
 }
 header .featured__controls{
     text-decoration: none;
     list-style: none;
 }
 .listProduct .item{
-    transition: 0.5s;
+    overflow: hidden;
+    transition: 0.7s;
     box-shadow: #000000;
     box-shadow: inset;
+    height: 250px;
 }
 
 
 .listProduct .item:hover{
-    scale: 103%;
+    scale: 110%;
+    height: 325px;
+    z-index: 5;
 }
 
 .listProduct .item img{
@@ -182,7 +189,8 @@ header .featured__controls{
     font-weight: 100;
     font: optional;
 }
-.listProduct .item button{
+
+.listProduct .item button.addCart{
     background-color: #353432;
     color: #eee;
     border: none;
@@ -191,10 +199,20 @@ header .featured__controls{
     border-radius: 20px;
     transition: 0.5s;
 }
-.listProduct .item button:hover{
+.listProduct .item button.addCart:hover{
     scale: 105%;
     background-color: lightblue;
     color: #000000;
+}
+
+.listProduct .item button.whatsappmsg{
+    background-color: #209e14;
+    color: #eee;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+    transition: 0.5s;
 }
 
 
