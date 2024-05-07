@@ -192,12 +192,7 @@ header .featured__controls{
     transition: 0.5s;
 }
 
-.listProduct .item button:hover{
-    scale: 110%;
-    cursor: pointer;
-    background-color: lightblue;
-    color: #000000;
-}
+
 
 /* cart */
 .cartTab{
