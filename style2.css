@@ -191,6 +191,11 @@ header .featured__controls{
     border-radius: 20px;
     transition: 0.5s;
 }
+.listProduct .item button:hover{
+    scale: 105%;
+    background-color: lightblue;
+    color: #000000;
+}
 
 
 
