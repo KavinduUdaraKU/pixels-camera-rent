@@ -156,6 +156,7 @@ header .featured__controls{
     box-shadow: #000000;
     box-shadow: inset;
     height: 250px;
+    display: flexbox;
 }
 
 
@@ -291,6 +292,13 @@ body.showCart .container{
 @media only screen and (max-width: 992px) {
     .listProduct{
         grid-template-columns: repeat(3, 1fr);
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .listProduct{
+        grid-template-columns: repeat(3,1fr);
     }
 }
 
@@ -298,6 +306,36 @@ body.showCart .container{
 /* mobile */
 @media only screen and (max-width: 768px) {
     .listProduct{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .listProduct{
         grid-template-columns: repeat(2, 1fr);
+    }
+    .listProduct .item{
+        height: 235px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .listProduct .item{
+        height: 210px;
+    }
+    .listProduct .item:hover{
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 429px) {
+    .listProduct .item{
+        height:200px ;
+    }
+}
+
+@media only screen and (max-width: 418px) {
+    .listProduct .item{
+        height:200px ;
     }
 }
