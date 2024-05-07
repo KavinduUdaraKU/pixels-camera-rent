@@ -124,7 +124,9 @@ header{
 }
 .icon-cart{
     position: relative;
+    transition: 0.5s;
 }
+
 .icon-cart span{
     position: absolute;
     background-color: red;
@@ -153,7 +155,7 @@ header .featured__controls{
 
 
 .listProduct .item:hover{
-    scale: 105%;
+    scale: 103%;
 }
 
 .listProduct .item img{
@@ -175,8 +177,10 @@ header .featured__controls{
     font-size: large;
 }
 .listProduct .item .price{
-    letter-spacing: 7px;
-    font-size: small;
+    letter-spacing: 3px;
+    font-size: large;
+    font-weight: 100;
+    font: optional;
 }
 .listProduct .item button{
     background-color: #353432;
@@ -185,6 +189,14 @@ header .featured__controls{
     padding: 5px 10px;
     margin-top: 10px;
     border-radius: 20px;
+    transition: 0.5s;
+}
+
+.listProduct .item button:hover{
+    scale: 110%;
+    cursor: pointer;
+    background-color: lightblue;
+    color: #000000;
 }
 
 /* cart */
