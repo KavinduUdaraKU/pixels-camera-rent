@@ -28,9 +28,9 @@ closeCart.addEventListener('click', () => {
                 newProduct.innerHTML = 
                 `<img src="${product.image}" alt="">
                 <h2>${product.name}</h2>
-                <div class="price"><b>$${product.price}</b></div>
-                <button class="addCart"><b>Add To Cart</b></button>`;
-                listProductHTML.appendChild(newProduct);
+                <div class="price">$${product.price}</div>
+                <button class="addCart">Add To Cart</button>`;
+                listProductHTML.appendChild(newProduct);a
             });
         }
     }
@@ -82,7 +82,7 @@ const addCartToHTML = () => {
                 <div class="name">
                 ${info.name}
                 </div>
-                <div class="totalPrice"><b>$${info.price * item.quantity}</b></div>
+                <div class="totalPrice">$${info.price * item.quantity}</div>
                 <div class="quantity">
                     <span class="minus"><</span>
                     <span>${item.quantity}</span>
