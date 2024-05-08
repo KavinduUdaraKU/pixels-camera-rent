@@ -27,7 +27,7 @@ closeCart.addEventListener('click', () => {
                 newProduct.classList.add('item');
                 newProduct.innerHTML = 
                 `<img src="${product.image}" alt="">
-                <h2>${product.name}</h2>
+                <h4>${product.name}</h4>
                 <div class="price">$${product.price}</div>
                 <button class="addCart">Add To Cart</button>
                 <div><button class="whatsappmsg"><a href="${product.link}">Send to Watsapp</a></button></div>`;
