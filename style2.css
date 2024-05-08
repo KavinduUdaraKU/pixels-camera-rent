@@ -159,14 +159,14 @@ header .featured__controls {
     transition: 0.7s;
     box-shadow: #000000;
     box-shadow: inset;
-    height: 250px;
+    height: 230px;
     display: flexbox;
 }
 
 
 .listProduct .item:hover {
     scale: 110%;
-    height: 325px;
+    height: 290px;
     z-index: 5;
 }
 
@@ -222,6 +222,7 @@ header .featured__controls {
     margin-top: 10px;
     border-radius: 20px;
     transition: 0.5s;
+    margin: 5px;
 
 }
 
