@@ -30,7 +30,7 @@ closeCart.addEventListener('click', () => {
                 <h2>${product.name}</h2>
                 <div class="price">$${product.price}</div>
                 <button class="addCart">Add To Cart</button>
-                <div><button class="whatsappmsg"> Send to Watsapp</button></div>`;
+                <div><button class="whatsappmsg"><a href="">Send to Watsapp</a></button></div>`;
                 listProductHTML.appendChild(newProduct);
             });
         }
