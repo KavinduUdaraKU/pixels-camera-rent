@@ -15,43 +15,43 @@
     },
     {
         "id": 3,
-        "name":" LD03 LOUNGE CHAIR",
+        "name":" Sony A7ii",
         "price": 290,
         "image": "images/3.png"
     },
     {
         "id": 4,
-        "name":" LD04 LOUNGE CHAIR",
+        "name":" Canon 6D MArk ii",
         "price": 200,
         "image": "images/4.png"
     },
     {
         "id": 5,
-        "name":" LD05 LOUNGE CHAIR",
+        "name":" Canon 6D",
         "price": 300,
         "image": "images/5.png"
     },
     {
         "id": 6,
-        "name":" LD06 LOUNGE CHAIR",
+        "name":" Canon 80D",
         "price": 200,
         "image": "images/6.png"
     },
     {
         "id": 7,
-        "name":" LD07 LOUNGE CHAIR",
+        "name":" Canon 7D",
         "price": 200,
         "image": "images/7.png"
     },
     {
         "id": 8,
-        "name":" LD08 LOUNGE CHAIR",
+        "name":" Nikon 150-600mm",
         "price": 200,
         "image": "images/8.png"
     },
     {
         "id": 8,
-        "name":" LD08 LOUNGE CHAIR",
+        "name":" Sigma 70-200mm 2.8F For Sony",
         "price": 200,
         "image": "images/8.png"
     },
