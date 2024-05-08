@@ -187,9 +187,8 @@ header .featured__controls {
     border-radius: 20px;
 }
 
-.listProduct .item h2 {
-    font-weight: 500;
-    font-size: large;
+.listProduct .item h4 {
+    font-size: 16px;
 }
 
 .listProduct .item .price {
