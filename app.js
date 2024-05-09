@@ -29,8 +29,8 @@ closeCart.addEventListener('click', () => {
                 `<img src="${product.image}" alt="">
                 <h4>${product.name}</h4>
                 <div class="price">$${product.price}</div>
-                <button class="addCart">Add To Cart</button>
-                <div><button class="whatsappmsg"><a href="${product.link}">Send to Watsapp</a></button></div>`;
+                <div class="buttons"><button class="addCart">Add To Cart</button></div>
+                <div class="buttons"><button class="whatsappmsg"><a href="${product.link}">Send to Watsapp</a></button></div>`;
                 listProductHTML.appendChild(newProduct);
             });
         }
