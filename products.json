@@ -57,44 +57,44 @@
     },
     {
         "id": 8,
-        "name":" LD08 LOUNGE CHAIR",
+        "name":" Sigma 70-200mm 2.8F For Canon",
         "price": 200,
         "image": "images/8.png"
     },
     {
         "id": 1,
-        "name":" LD01 LOUNGE CHAIR",
+        "name":" Sigma 24-70mm 2.8F For Sony ",
         "price": 200,
         "image": "images/1.png"
     },
     
     {
         "id": 2,
-        "name":" LD02 LOUNGE CHAIR",
+        "name":" Canon 24-70mm 2.8F ",
         "price": 250,
         "image": "images/2.png"
     },
     {
         "id": 3,
-        "name":" LD03 LOUNGE CHAIR",
+        "name":" Sigma 85mm 1.4F For Sony",
         "price": 290,
         "image": "images/3.png"
     },
     {
         "id": 4,
-        "name":" LD04 LOUNGE CHAIR",
+        "name":" Sigma 85mm 1.4F For Canon",
         "price": 200,
         "image": "images/4.png"
     },
     {
         "id": 5,
-        "name":" LD05 LOUNGE CHAIR",
+        "name":" Sigma 50mm 1.4F For Sony",
         "price": 300,
         "image": "images/5.png"
     },
     {
         "id": 6,
-        "name":" LD06 LOUNGE CHAIR",
+        "name":" Sigma 50mm 1.4F For Canon",
         "price": 200,
         "image": "images/6.png"
     },
