@@ -159,29 +159,19 @@ header .featured__controls {
     transition: 0.7s;
     box-shadow: #000000;
     box-shadow: inset;
-    height: 230px;
+    height: 250px;
     display: flexbox;
 }
 
 
 .listProduct .item:hover {
     scale: 110%;
-    height: 290px;
     z-index: 5;
     filter: drop-shadow(0 50px 20px #0009);
-    filter: blur(100);
 }
 
-.listProduct .buttons{
-    scale: 0%;
-    transition: 0.5s;
-    transform: scaley(100px);
-}
 
-.listProduct .item:hover .buttons{
-    scale: 100%;
-    transform: scaley(400px);
-}
+
 
 .listProduct .item img {
     width: 80%;
@@ -206,7 +196,7 @@ header .featured__controls {
 }
 
 .listProduct .item .price {
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     padding-top: 0px;
 }
 
@@ -221,13 +211,20 @@ header .featured__controls {
     padding: 5px 10px;
     margin-top: 10px;
     border-radius: 20px;
+    width: 40%;
+    transition: 0.5s;
+}
+
+.listProduct .item button.addCart i {
+    transform: rotate(360deg);
     transition: 0.5s;
 }
 
 .listProduct .item button.addCart:hover {
-    scale: 105%;
     background-color: lightblue;
     color: #000000;
+    scale: 120%;
+    cursor: pointer;
 }
 
 .listProduct .item button.whatsappmsg {
@@ -238,6 +235,7 @@ header .featured__controls {
     border-radius: 20px;
     transition: 0.5s;
     margin: 5px;
+    width: 40%;
 
 }
 
