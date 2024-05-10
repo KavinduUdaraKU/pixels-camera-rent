@@ -174,7 +174,6 @@ header .featured__controls {
     scale: 115%;
     z-index: 5;
     filter: drop-shadow(20px 50px 50px rgba(0, 0, 0, 0.6));
-    filter: ;
 }
 
 
@@ -381,11 +380,17 @@ form{
 }
 form h1{
   text-align: center;
+  box-sizing: border-box;
+  background-color: #209e14;
+  border-radius: 20px;
+  padding: 10px;
+  
 }
 form label{
   display: block;
   margin-bottom: 5px;
   border: none;
+  color: yellow;
 }
 form input, form textarea{
   width: 100%;
@@ -394,9 +399,14 @@ form input, form textarea{
   box-sizing: border-box;
   resize: vertical;
   border: none;
-  border-bottom: 2px solid #ffffff;
+  border-bottom: 2px solid yellow;
+  border-bottom-width: 50%;
   outline: none;
   background: none;
+  color: white;
+}
+form input, form .text{
+    background: none;
 }
 form .sendbtn{
   background: #4CAF50;
