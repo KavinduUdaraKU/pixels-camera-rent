@@ -129,6 +129,10 @@ header {
     transition: 0.5s;
     color: #fff;
 }
+.icon-cart .imgheart{
+    color: white;
+}
+
 .icon-cart i{
     scale: 200px;
 }
@@ -275,6 +279,8 @@ header .featured__controls {
     display: grid;
     grid-template-rows: 70px 1fr 70px;
     transition: .5s;
+    height: 500px;
+    z-index: 10;
 }
 
 body.showCart .cartTab {
@@ -292,26 +298,38 @@ body.showCart .container {
 }
 
 .cartTab .btn {
+    margin-top: 330px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    padding: 10px;
 }
 
-.cartTab button {
+.cartTab .checkOut {
     background-color: #E8BC0E;
     border: none;
     font-family: Poppins;
-    font-weight: 500;
     cursor: pointer;
+    height: 50px;
+    align-items: center;
+
 }
 
 .cartTab .close {
     background-color: #eee;
+    border: none;
+    font-family: Poppins;
+    font-weight: 500;
+    cursor: pointer;
+    height: 50px;
+    align-items: center;
 }
 
 .listCart .item img {
     width: 100%;
 }
-
+.listCart{
+    height: 415px;
+}
 .listCart .item {
     display: grid;
     grid-template-columns: 70px 150px 50px 1fr;
@@ -346,6 +364,43 @@ body.showCart .container {
 
 .listCart::-webkit-scrollbar {
     width: 0;
+}
+
+.whtmg{
+    width: 400px;
+}
+
+form{
+    width: 390px;
+    margin-top: 0%;
+  margin: 15px 5px;
+  font-size: 16px;
+  background: #353432;
+}
+form h1{
+  text-align: center;
+}
+form label{
+  display: block;
+  margin-bottom: 5px;
+}
+form input, form textarea{
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+form .sendbtn{
+  background: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  margin-top: 5px;
+  border: none;
+  cursor: pointer;
+}
+form button:hover{
+  background: green;
 }
 
 @media only screen and (max-width: 992px) {
