@@ -236,7 +236,23 @@ header .featured__controls {
     transition: 0.5s;
     margin: 5px;
     width: 40%;
+    transition: 0.5s;
 
+}
+
+.listProduct .item button.whatsappmsg:hover{
+    background-color: rgb(191, 255, 154);
+    cursor: pointer;
+}
+
+.listProduct .item button.whatsappmsg i{
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.listProduct .item button.whatsappmsg:hover i{
+    color: green;
 }
 
 .listProduct .item button.whatsappmsg a{
