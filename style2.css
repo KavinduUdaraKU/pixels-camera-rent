@@ -408,16 +408,21 @@ form input, form .text{
     background: none;
 }
 form .sendbtn{
-  background: #4CAF50;
+  background: #209e14;
   color: white;
   padding: 10px 15px;
   margin-top: 2px;
   border: none;
   cursor: pointer;
   border-radius: 20px;
+  transition: 0.5s;
+  margin-left: 10px;
 }
 form button:hover{
-  background: green;
+  background:  rgb(191, 255, 154);
+  color: #209e14;
+  scale: 105%;
+
 }
 
 @media only screen and (max-width: 992px) {
