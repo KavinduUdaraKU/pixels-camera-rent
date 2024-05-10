@@ -165,9 +165,10 @@ header .featured__controls {
 
 
 .listProduct .item:hover {
-    scale: 110%;
+    scale: 120%;
     z-index: 5;
-    filter: drop-shadow(0 50px 20px #0009);
+    filter: drop-shadow(20px 50px 50px rgba(0, 0, 0, 0.6));
+    filter: ;
 }
 
 
@@ -217,13 +218,12 @@ header .featured__controls {
 
 .listProduct .item button.addCart i {
     transform: rotate(360deg);
-    transition: 0.5s;
 }
 
 .listProduct .item button.addCart:hover {
     background-color: lightblue;
     color: #000000;
-    scale: 120%;
+    scale: 110%;
     cursor: pointer;
 }
 
@@ -243,6 +243,7 @@ header .featured__controls {
 .listProduct .item button.whatsappmsg:hover{
     background-color: rgb(191, 255, 154);
     cursor: pointer;
+    scale: 110%;
 }
 
 .listProduct .item button.whatsappmsg i{
