@@ -48,7 +48,7 @@
             <form>
                 <h1>Send Your Order</h1>
                 <label for="">Name</label>
-                <input type="text" class="name">
+                <input type="text" class="namemy">
         
                 <label for="">Mobile Number</label>
                 <input type="text" class="email">
@@ -63,13 +63,13 @@
                     function sendwhatsapp(){
                      var phonenumber = "+94715344743";
               
-                     var name = document.querySelector(".name").value;
+                     var namemy = document.querySelector(".namemy").value;
                      var email = document.querySelector(".email").value;
                      var country = document.querySelector(".country").value;
                      var message = document.querySelector(".message").value;
               
                      var url = "https://wa.me/" + phonenumber + "?text="
-                     +"*Name :* "+name+"%0a"
+                     +"*Name :* "+namemy+"%0a"
                      +"%0a"
                      +"*Mobile :* "+email+"%0a"
                      +"%0a"
