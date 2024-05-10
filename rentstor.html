@@ -45,6 +45,43 @@
         <div class="listCart">
             
         </div>
+        <div class="whtmg">
+            <form>
+                <h1>Send Data To WhatsApp</h1>
+                <label for="">Name</label>
+                <input type="text" class="name">
+        
+                <label for="">Email</label>
+                <input type="text" class="email">
+        
+                <label for="">Country</label>
+                <input type="text" class="country">
+        
+                <label for="">Message</label>
+                <textarea class="message"></textarea>
+                <button class="sendbtn" type="button" onclick="sendwhatsapp();">Send Via WhatsApp</button>
+                <script>
+                    function sendwhatsapp(){
+                     var phonenumber = "+94715344743";
+              
+                     var name = document.querySelector(".name").value;
+                     var email = document.querySelector(".email").value;
+                     var country = document.querySelector(".country").value;
+                     var message = document.querySelector(".message").value;
+              
+                     var url = "https://wa.me/" + phonenumber + "?text="
+                     +"*Name :* "+name+"%0a"
+                     +"*Email :* "+email+"%0a"
+                     +"*Country:* "+country+"%0a"
+                     +"*Message :* "+message
+                     +"%0a%0a"
+                     +"This is an example of send HTML form data to WhatsApp";
+              
+                     window.open(url, '_blank').focus();
+                   }
+                  </script>
+            </form>
+        </div>
         <div class="btn">
             <button class="close">CLOSE</button>
             <button class="checkOut">Check Out</button>
