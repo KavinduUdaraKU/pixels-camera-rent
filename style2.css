@@ -166,7 +166,7 @@ header .featured__controls {
     box-shadow: #000000;
     box-shadow: inset;
     height: 250px;
-    display: flexbox;
+
 }
 
 
@@ -381,7 +381,6 @@ form{
 form h1{
   text-align: center;
   box-sizing: border-box;
-  background-color: #209e14;
   border-radius: 20px;
   padding: 10px;
   
