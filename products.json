@@ -50,75 +50,81 @@
         "image": "images/8.png"
     },
     {
-        "id": 8,
+        "id": 9,
         "name":" Sigma 70-200mm 2.8F For Sony",
         "price": 200,
         "image": "images/8.png"
     },
     {
-        "id": 8,
+        "id": 10,
         "name":" Sigma 70-200mm 2.8F For Canon",
         "price": 200,
         "image": "images/8.png"
     },
     {
-        "id": 1,
+        "id": 11,
         "name":" Sigma 24-70mm 2.8F For Sony ",
         "price": 200,
         "image": "images/1.png"
     },
     
     {
-        "id": 2,
+        "id": 12,
         "name":" Canon 24-70mm 2.8F ",
         "price": 250,
         "image": "images/2.png"
     },
     {
-        "id": 3,
+        "id": 13,
         "name":" Sigma 85mm 1.4F For Sony",
         "price": 290,
         "image": "images/3.png"
     },
     {
-        "id": 4,
+        "id": 14,
         "name":" Sigma 85mm 1.4F For Canon",
         "price": 200,
         "image": "images/4.png"
     },
     {
-        "id": 5,
+        "id": 15,
         "name":" Sigma 50mm 1.4F For Sony",
         "price": 300,
         "image": "images/5.png"
     },
     {
-        "id": 6,
+        "id": 16,
         "name":" Sigma 50mm 1.4F For Canon",
         "price": 200,
         "image": "images/6.png"
     },
     {
-        "id": 7,
+        "id": 17,
         "name":" Sigma 35mm 1.4F For Sony",
         "price": 200,
         "image": "images/7.png"
     },
     {
-        "id": 8,
+        "id": 18,
         "name":" Sigma 35mm 1.4F For Canon",
         "price": 200,
         "image": "images/8.png"
     },
     {
-        "id": 8,
+        "id": 19,
         "name":" Sony 50mm 1.8F &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
         "price": 200,
         "image": "images/8.png"
     },
     {
-        "id": 8,
-        "name":" Canon 50mm 1.8F",
+        "id": 20,
+        "name":" Canon 50mm 1.8F &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+        "price": 200,
+        "image": "images/8.png"
+    },
+    {
+        "id": 21,
+        "name":" Canon 50mm 1.8F &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
         "price": 200,
         "image": "images/8.png"
     }
