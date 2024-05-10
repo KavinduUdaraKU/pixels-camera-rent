@@ -29,8 +29,8 @@ closeCart.addEventListener('click', () => {
                 `<img src="${product.image}" alt="">
                 <h4>${product.name}</h4>
                 <div class="price">$${product.price}</div>
-                <div class="buttons"><button class="addCart">Add To Cart</button></div>
-                <div class="buttons"><button class="whatsappmsg"><a href="${product.link}">Send to Watsapp</a></button></div>`;
+                <button class="addCart"><a class="cart"><i class="fa-solid fa-cart-shopping" class="cart"></i></a></button>
+                <button class="whatsappmsg"><a href="${product.link}"><i class="fa-brands fa-whatsapp"></i></a></button>`;
                 listProductHTML.appendChild(newProduct);
             });
         }
@@ -38,6 +38,13 @@ closeCart.addEventListener('click', () => {
     listProductHTML.addEventListener('click', (event) => {
         let positionClick = event.target;
         if(positionClick.classList.contains('addCart')){
+            let id_product = positionClick.parentElement.dataset.id;
+            addToCart(id_product);
+        }
+    })
+    listProductHTML.addEventListener('click', (event) => {
+        let positionClick = event.target;
+        if(positionClick.classList.contains('cart')){
             let id_product = positionClick.parentElement.dataset.id;
             addToCart(id_product);
         }
