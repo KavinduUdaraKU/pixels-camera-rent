@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "name":" Sony A7iv",
+        "name":" Sony A7iv &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
         "price": 200,
         "image": "img/featured/a7iii.png",
         "link": "https://api.whatsapp.com/send?phone=94715344743&text=I%20Want%20A7iii"
@@ -9,43 +9,43 @@
     
     {
         "id": 2,
-        "name":" Sony A7iii",
+        "name":" Sony A7iii &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
         "price": 250,
         "image": "images/2.png"
     },
     {
         "id": 3,
-        "name":" Sony A7ii",
+        "name":" Sony A7ii &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
         "price": 290,
         "image": "images/3.png"
     },
     {
         "id": 4,
-        "name":" Canon 6D MArk ii",
+        "name":" Canon 6D MArk ii &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
         "price": 200,
         "image": "images/4.png"
     },
     {
         "id": 5,
-        "name":" Canon 6D",
+        "name":" Canon 6D &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
         "price": 300,
         "image": "images/5.png"
     },
     {
         "id": 6,
-        "name":" Canon 80D",
+        "name":" Canon 80D &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
         "price": 200,
         "image": "images/6.png"
     },
     {
         "id": 7,
-        "name":" Canon 7D",
+        "name":" Canon 7D &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
         "price": 200,
         "image": "images/7.png"
     },
     {
         "id": 8,
-        "name":" Nikon 150-600mm",
+        "name":" Nikon 150-600mm &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
         "price": 200,
         "image": "images/8.png"
     },
