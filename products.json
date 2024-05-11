@@ -181,5 +181,11 @@
         "name":" Godox V860<sub>iii</sub> For Canon",
         "price": 200,
         "image": "images/8.png"
+    },
+    {
+        "id": 29,
+        "name":" Godox V860<sub>iii</sub> For Sony",
+        "price": 200,
+        "image": "images/8.png"
     }
 ]
