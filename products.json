@@ -141,24 +141,33 @@
         "image": "images/7.png"
     },
     {
-        "id": 23,
+        "id": 24,
         "name":" DJI RS3 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
         "price": 200,
         "image": "images/8.png"
     },
     {
-        "id": 24,
+        "id": 25,
         "name":" DJI RSC2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
         "price": 200,
         "image": "images/8.png"
     },
     {
-        "id": 25,
+        "id": 26,
         "name":" DJI RSC &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
         "price": 200,
         "image": "images/8.png"
+    },
+    {
+        "id": 27,
+        "name":" Godox V1 For ",
+        "price": 200,
+        "image": "images/8.png"
+    },
+    {
+        "id": 27,
+        "name":" Godox V1 For Canon",
+        "price": 200,
+        "image": "images/8.png"
     }
-    
-
-
 ]
