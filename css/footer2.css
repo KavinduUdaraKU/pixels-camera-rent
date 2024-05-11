@@ -1,12 +1,12 @@
+.footermain{
+    height: 1x;
+}
+
 .footer {
     background-image: url(./images/bg-footer.jpg);
-    background-position: center center;
-    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
     position: relative;
-    padding-bottom: 0%;
-    margin-bottom: 0%;
 }
 
 .footer-logo {
@@ -143,5 +143,8 @@
 }
 
 @media only screen and (max-width: 430px) {
-
+    .footer{
+        
+    }
+    
 }
