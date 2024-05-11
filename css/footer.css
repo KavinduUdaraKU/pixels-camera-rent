@@ -3,7 +3,10 @@
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: scroll
+    background-attachment: scroll;
+    position: relative;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
 }
 
 .footer-logo {
@@ -137,4 +140,8 @@
     color: #444;
     gap: 1rem;
     text-decoration: none;
+}
+
+@media only screen and (max-width: 430px) {
+
 }
