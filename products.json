@@ -33,13 +33,14 @@
         "id": 5,
         "name":" Canon 6D &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
         "price": 300,
-        "image": "img/rentitems/6d.png"
+        "image": "img/rentitems/6d.png",
+        "link": "https://api.whatsapp.com/send?phone=94715344743&text=I%20Want%206D"
     },
     {
         "id": 6,
         "name":" Canon 80D &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
         "price": 200,
-        "image": "img/rentitems/80d.png"
+        "image": "img/rentitems/80d.png",
     },
     {
         "id": 7,
