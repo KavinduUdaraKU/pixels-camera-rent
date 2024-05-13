@@ -54,7 +54,8 @@
         "id": 8,
         "name":" Nikon 150-600mm &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
         "price": 200,
-        "image": "images/8.png"
+        "image": "images/8.png",
+        "link": "https://api.whatsapp.com/send?phone=94715344743&text=I%20Want%20Nikon%20150-600mm"
     },
     {
         "id": 9,
