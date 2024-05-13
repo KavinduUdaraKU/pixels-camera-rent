@@ -26,7 +26,8 @@
         "id": 4,
         "name":" Canon 6D MArk ii &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
         "price": 200,
-        "image": "img/rentitems/6dmkii.png"
+        "image": "img/rentitems/6dmkii.png",
+        "link": "https://api.whatsapp.com/send?phone=94715344743&text=I%20Want%206DMarkii"
     },
     {
         "id": 5,
