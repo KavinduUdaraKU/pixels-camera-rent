@@ -4,14 +4,16 @@
         "name":" Sony A7iv &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
         "price": 200,
         "image": "img/rentitems/a7iv.png",
-        "link": "https://api.whatsapp.com/send?phone=94715344743&text=I%20Want%20A7iii"
+        "link": "https://api.whatsapp.com/send?phone=94715344743&text=I%20Want%20A7iv"
     },
     
     {
         "id": 2,
         "name":" Sony A7iii &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
         "price": 250,
-        "image": "img/rentitems/a7iii.png"
+        "image": "img/rentitems/a7iii.png",
+        "link": "https://api.whatsapp.com/send?phone=94715344743&text=I%20Want%20A7iii"
+        
     },
     {
         "id": 3,
