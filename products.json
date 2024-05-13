@@ -83,7 +83,8 @@
         "id": 12,
         "name":" Canon 24-70mm 2.8F ",
         "price": 250,
-        "image": "images/2.png"
+        "image": "images/2.png",
+        "link": "https://api.whatsapp.com/send?phone=94715344743&text=I%20Want%20Sigma%2070-200mm%20c"
     },
     {
         "id": 13,
