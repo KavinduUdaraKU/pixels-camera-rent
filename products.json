@@ -68,7 +68,8 @@
         "id": 10,
         "name":" Sigma 70-200mm 2.8F For Canon",
         "price": 200,
-        "image": "images/8.png"
+        "image": "images/8.png",
+        "link": "https://api.whatsapp.com/send?phone=94715344743&text=I%20Want%20Sigma%2070-200mm%20c"
     },
     {
         "id": 11,
