@@ -49,17 +49,17 @@
             <form>
                 <h1>Send Your Order</h1>
                 <label for="">Name</label>
-                <input type="text" class="namemy">
+                <input type="text" class="namemy" required="true">
         
                 <label for="">Mobile Number</label>
-                <input type="text" class="email">
+                <input type="text" class="email" required="true">
         
                 <label for="">Address</label>
-                <input type="text" class="country">
+                <input type="text" class="country" required="true">
         
                 <label for="">Your order</label>
-                <textarea class="message"></textarea>
-                <button class="sendbtn" type="button" onclick="sendwhatsapp();"><i class="fa-brands fa-whatsapp"></i> Send Via WhatsApp</button>
+                <textarea class="message"></textarea required="true">
+                <button class="sendbtn" type="submit" onclick="sendwhatsapp('open whatsapp');"><i class="fa-brands fa-whatsapp"></i> Send Via WhatsApp</button>
                 <script>
                     function sendwhatsapp(){
                      var phonenumber = "+94715344743";
