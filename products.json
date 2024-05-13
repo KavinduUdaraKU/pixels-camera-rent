@@ -19,7 +19,8 @@
         "id": 3,
         "name":" Sony A7ii &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
         "price": 290,
-        "image": "img/rentitems/a7ii.png"
+        "image": "img/rentitems/a7ii.png",
+        "link": "https://api.whatsapp.com/send?phone=94715344743&text=I%20Want%20A7ii"
     },
     {
         "id": 4,
