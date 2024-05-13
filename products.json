@@ -111,7 +111,8 @@
         "id": 16,
         "name":" Sigma 50mm 1.4F For Canon",
         "price": 200,
-        "image": "images/6.png"
+        "image": "images/6.png",
+        "link": "https://api.whatsapp.com/send?phone=94715344743&text=I%20Want%20Sigma%2085mm%20s"
     },
     {
         "id": 17,
