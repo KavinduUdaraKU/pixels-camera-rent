@@ -97,7 +97,8 @@
         "id": 14,
         "name":" Sigma 85mm 1.4F For Canon",
         "price": 200,
-        "image": "images/4.png"
+        "image": "images/4.png",
+        "link": "https://api.whatsapp.com/send?phone=94715344743&text=I%20Want%20Sigma%2085mm%20c"
     },
     {
         "id": 15,
