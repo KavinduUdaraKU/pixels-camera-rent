@@ -47,7 +47,8 @@
         "id": 7,
         "name":" Canon 7D &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
         "price": 200,
-        "image": "img/rentitems/7d.png"
+        "image": "img/rentitems/7d.png",
+        "link": "https://api.whatsapp.com/send?phone=94715344743&text=I%20Want%207D"
     },
     {
         "id": 8,
