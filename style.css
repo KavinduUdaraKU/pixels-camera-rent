@@ -55,3 +55,65 @@ section .box {
 .bg-dark p {
     color: #aaa;
 }
+
+@media (max-width: 768px) {
+    .navbar .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header .box {
+        text-align: center;
+    }
+
+    .about .container {
+        flex-direction: column;
+    }
+
+    .about .box, .about .about-img {
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    .services .container {
+        flex-direction: column;
+    }
+
+    .services .box {
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    .gallery .container {
+        flex-direction: column;
+    }
+
+    .gallery .grid-wrapper {
+        flex-direction: column;
+    }
+
+    .contact .container {
+        flex-direction: column;
+    }
+
+    .contact .box {
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    .footer .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer .box {
+        max-width: 100%;
+        min-width: 100%;
+        text-align: center;
+    }
+}
