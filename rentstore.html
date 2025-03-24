@@ -145,12 +145,16 @@
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="https://wa.me/p/6632147273491584/94702862602"><i class="fa fa-whatsapp"></i></a></li>
-                                <!-- <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li> -->
+                                
                             </ul>
                         </div>
                         <div class="featured__item__text">
-                            <h6><a href="#">More Details...</a></h6>
+                            <h6><p href="#1" onclick="toggleDetails('a7iv-details')">More Details...</a></h6>
                             <h5>A7 iv</h5>
+                            <div id="a7iv-details" class="camera-details" style="display: none;">
+                                <p>Details about Sony Ab hgvgvgvgvvvvhg cjfv vjygv j vu tjgvyjtcv yvbjhbvjyhvbjvbn7 IV camera...</p>
+                                <!-- Add more details as needed -->
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -910,5 +914,15 @@
     <script src="js/mixitup.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
+    <script>
+        function toggleDetails(id) {
+            var element = document.getElementById(id);
+            if (element.style.display === "none") {
+                element.style.display = "block";
+            } else {
+                element.style.display = "none";
+            }
+        }
+    </script>
 </body>
 </html>
