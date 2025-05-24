@@ -78,14 +78,30 @@
 }
 
 .about-bottom {
-
     display: flex;
     gap: 3rem;
     margin-top: 1rem;
     border-top: 1px solid #f1f1f1;
     padding: 1rem;
+    flex-wrap: wrap;
 }
 
 .signature {
     width: 30%;
+    min-width: 180px;
+    max-width: 100%;
 }
+
+@media (max-width: 900px) {
+    
+    }
+    .about-bottom {
+        flex-direction: column;
+        gap: 1.5rem;
+        padding: 0.5rem;
+    }
+    .signature {
+        width: 100%;
+    }
+
+    

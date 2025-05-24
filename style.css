@@ -56,6 +56,25 @@ section .box {
     color: #aaa;
 }
 
+/* Responsive Email Input */
+.responsive-input {
+    width: 100%;
+    max-width: 400px;
+    padding: 12px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+@media (max-width: 600px) {
+    .responsive-input {
+      font-size: 0.95rem;
+      padding: 10px;
+      max-width: 100%;
+    }
+}
+
 @media (max-width: 768px) {
     .navbar .container {
         flex-direction: column;
@@ -116,4 +135,6 @@ section .box {
         min-width: 100%;
         text-align: center;
     }
+
 }
+
