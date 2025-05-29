@@ -45,10 +45,12 @@
             <div class="box">
                 <h4 class="">Hello there !</h4>
                 <h1 class="">We're Pixel Camera Studio Team</h1>
+                <br><br><br><br>
                 <p class="">
                     We are professional photographers based on Sri Lanka, creating dreamscapes with
                     black, white and shades in-between and we are renting cameras and equipments.
                 </p>
+                
                 <a href="rentstore.html" class="btn">Rent Store</a>
                 <a href="#contact" class="btn">Contact us</a>
             </div>
@@ -72,7 +74,7 @@
                     </li>
                     <li>
                         <i class="fa fa-check" aria-hidden="true"></i>
-                        <span>500+ happy customers has received our service.</span>
+                        <span>10000+ happy customers has received our service.</span>
                     </li>
                     <li>
                         <i class="fa fa-check" aria-hidden="true"></i>
@@ -93,11 +95,12 @@
                 </div>
             </div>
         </div>
+
     </section>
     <section class="services bg-dark" id="services">
         <div class="heading">
             <h2 class="section-title"><span>Our Services</span></h2>
-            <p class="section-title2"></p>
+        
         </div>
 
         <!--
@@ -163,36 +166,27 @@
     </section>
     <section class="gallery bg-dark" id="works">
         <div class="heading">
-            <h2 class="title">Our Works</h2>
+            <h2 class="title">Capture the moment!</h2>
         </div>
-        <div class="container">
-            <ul>
-                <li class="active" data-filter="*">All</li>
-                <li data-filter=".personal">Personal</li>
-                <li data-filter=".wedding">Wedding</li>
-                <li data-filter=".event">Event</li>
-                <li data-filter=".fashion">Fashion</li>
-                <li data-filter=".product">Product</li>
-            </ul>
-        </div>
+        
         <div class="container">
             <div class="grid-wrapper">
                 <div class="image tall">
-                    <img src="./images/album/pexels-photo-1055613.jpg" alt="" />
+                    <img src="./images/album/pexels-photo-1055613.jpg" alt="pic1" />
                 </div>
                 <div class="image wide">
-                    <img src="./images/album/pexels-photo-1738986.jpg" alt="" />
+                    <img src="./images/album/pexels-photo-1738986.jpg" alt="pic2" />
                 </div>
                 <div class="image tall">
-                    <img src="./images/album/pexels-photo-2970287.jpg" alt="" />
+                    <img src="./images/album/pexels-photo-2970287.jpg" alt="pic3" />
 
                 </div>
                 <div class="image">
-                    <img src="./images/album/pexels-photo-1722206.jpg" alt="" />
+                    <img src="./images/album/pexels-photo-1722206.jpg" alt="pic4" />
 
                 </div>
                 <div class="image ">
-                    <img src="./images/album/pexels-photo-3494648.jpg" alt="" />
+                    <img src="./images/album/pexels-photo-3494648.jpg" alt="pic4" />
                 </div>
             </div>
         </div>
@@ -215,12 +209,12 @@
                     </li>
                     <li>
                         <i class="fa fa-location-pin" aria-hidden="true"></i>
-                        <a href="https://maps.app.goo.gl/tVZQvr68DzHoETR18" class="emaill"> --> Malabe Shop</a>
+                        <a href="https://maps.app.goo.gl/tVZQvr68DzHoETR18" class="emaill"> -> Malabe Shop</a>
                             
                     </li>
                     <li>
                         <i class="fa fa-location-pin" aria-hidden="true"></i>
-                        <a href="https://maps.app.goo.gl/tVZQvr68DzHoETR18" class="emaill"> --> Gampha Shop</a>
+                        <a href="https://maps.app.goo.gl/tVZQvr68DzHoETR18" class="emaill"> -> Gampha Shop</a>
                             
                     </li>
                     <br>
@@ -332,12 +326,41 @@
                     reserved.</p>
             </div>
             <div class="box">
-                <ul class="social-icons">
-                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                    <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                <ul class="social-icons" style="display: flex; gap: 16px; padding: 0; margin: 0; list-style: none; justify-content: center; flex-wrap: wrap;">
+                    <li>
+                        <a href="#" style="display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 50%; background: #222; color: #fff; font-size: 20px; transition: background 0.2s;">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" style="display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 50%; background: #222; color: #fff; font-size: 20px; transition: background 0.2s;">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" style="display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 50%; background: #222; color: #fff; font-size: 20px; transition: background 0.2s;">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" style="display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 50%; background: #222; color: #fff; font-size: 20px; transition: background 0.2s;">
+                            <i class="fab fa-dribbble"></i>
+                        </a>
+                    </li>
+                </ul>
             </div>
+            <style>
+                @media (max-width: 600px) {
+                    .social-icons {
+                        gap: 10px !important;
+                    }
+                    .social-icons li a {
+                        width: 36px !important;
+                        height: 36px !important;
+                        font-size: 18px !important;
+                    }
+                }
+            </style>
         </div>
         </div>
         
